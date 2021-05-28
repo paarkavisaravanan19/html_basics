@@ -1,0 +1,132 @@
+<!--to denote this as html5 ==> use <!DOCTYE html> -->
+<!--type html + press tab to get structure of html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>first code in html</title> <!--  this line is used for title ,displayed on new tab (above)-->
+	<h1> MY FIRST DAY IN HTML</h1> <!--this line is called heading tags <h1> </h1> ==> the content given here will display on web page-->
+	<!-- this is comment line -->
+</head>
+<body>
+	<!--there are 6 default heading tags ,used for font size -->
+	<h1> MY FIRST DAY IN HTML</h1>
+	<h2> MY FIRST DAY IN HTML</h2>
+	<h3> MY FIRST DAY IN HTML</h3>
+	<h4> MY FIRST DAY IN HTML</h4>
+	<h5> MY FIRST DAY IN HTML</h5>
+	<h6> MY FIRST DAY IN HTML</h6>
+	<!--paragraph -->
+	<p>
+		<b>A paragraph is a series of related sentences developing a central idea, called the topic.</b> <u>Try to think about paragraphs in terms of thematic unity: </u> <i> a paragraph is a sentence or a group of sentences that supports one central, unified idea. </i>
+		<strong>Paragraphs add one idea at a time to your broader argument.</strong><big>hiii</big>
+		<br>
+		<!--<a href="link mentioned"> </a>==>represents link description -->
+		<!-- to get the mentioned link in new page use target="name"-->
+		<a href="https://github.com/paarkavisaravanan19/mini_project.git" target="mini_project">My github link:</a>
+		<!-- href ==> for inserting the link , target =" " ==>is used for directing my link to other new page-->
+
+	</p>	
+	<!--for getting separate paragraph instead of getting combined,specify separate <p>   </p> -->
+	<p>
+		A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs. ... 
+<br>  <!-- for empty space or wanna print in next line ==> use <br>  -->
+<hr>  <!--for drawing horizontal line between lines -->
+		Paragraphs can contain many different kinds of information.
+	</p>
+	<!--List -->
+	<ul><!--unordered list-->
+		<li>hey you</li> <!--list are given below-->
+		<li>hey you</li>
+		<li>hey you</li>
+		<li>hey you</li>
+	</ul>
+	<ol>
+		<li>hey you</li> <!--list are given below-->
+		<li>hey you</li>
+		<li>hey you</li>
+		<li>hey you</li>
+		<li>paarkavi</li>
+	</ol>
+	<!--tables-->
+	<table>
+		<head>
+			<tr> <!--row-->
+				<th>name</th>  <!--heading-->
+				<th>email</th>   <!--heading-->
+				<th>number</th>  <!--heading-->
+
+
+			</tr>
+		</head>
+
+		<body>
+			<tr>
+
+			    <td>paarkavi</td>                     <!--data-->
+			    <td>paarkavi19092001@gmail.com</td><!--data-->
+			    <td>123455678</td><!--data-->
+            </tr>
+
+			<tr>
+<!--for multiple rows-->
+			    <td>kirthana</td>                     <!--data-->
+			    <td>kirthu@gmail.com</td><!--data-->
+			    <td>123455678</td><!--data-->
+            </tr>
+		</body>
+
+	</table>
+
+
+	<br>
+
+	<form action="next.php" method="POST"> <!--it is used for action performed and method ,if the action was performed-->
+		<div>  <!--similar to br but it contains close tag-->
+		<label>first name</label>
+		<input type="text" name="fname" placeholder="first name"><!--type==>defines the data type ,name used here for storing the info in data base-->
+	    </div>
+<br>
+	    <div>  <!--similar to br but it contains close tag-->
+		<label>last name</label>
+		<input type="text" name="lname"><!--type==>defines the data type ,name used here for storing the info in data base-->
+	    </div>
+<br>  <!--for leaving gap in between-->
+	    <div>  <!--similar to br but it contains close tag-->
+		<label>Password</label>
+		<input type="Password" name="pname"><!--type==>defines the data type ,name used here for storing the info in data base-->
+	    </div>
+<br>
+<div>  <!--similar to br but it contains close tag-->
+		<label>Date of birth:</label>
+		<input type="Date" name="date"><!--type==>defines the data type ,name used here for storing the info in data base-->
+	    </div>
+	    <br>
+	    <div>
+	    <label>gender</label>
+		<select> name="gender">
+			<option value="male">male</option>
+			<option value="female">female</option>
+			<option value="others">others</option>
+		</select>
+	</div>
+	<br>
+	    <div>
+	    <label>phone number</label>
+		<input type="number" name="phn no">
+	</div>
+	<br>
+	<div>
+		<label>Leave your feedback here:</label> <!--label for text box-->
+		<textarea>text here</textarea> <!--it is used for typing something on the box,where text here is erasable-->
+	</div>
+	<input type="submit" name="submit" value="submit">
+</form>
+
+<br>
+<a href="wp_1.jpg"> <!--used to zoom the image as a picture separately-->
+<img src="wp_1.jpg" alt="wallpaper" width="500" > <!--width is used here for resizing the picture-->
+</a>
+
+
+</body>
+</html>
